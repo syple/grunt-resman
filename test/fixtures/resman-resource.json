@@ -1,0 +1,62 @@
+{
+    "resourceBlocks": [
+        {
+            "type": "js",
+            "beginIdentifier": "build:js scripts/shared.js",
+            "endIdentifier": "endbuild",
+            "resources": [
+                "./js/app.js",
+                "./js/util.js"
+            ]
+        },
+        {
+            "type": "css",
+            "beginIdentifier": "build:css css/shared.css",
+            "endIdentifier": "endbuild",
+            "resources": [
+                "./css/main.css"
+            ]
+        },
+        {
+            "type": "css",
+            "beginIdentifier": "build:css css/module-one.css",
+            "endIdentifier": "endbuild",
+            "resources": [
+                "./css/module-one.css"
+            ]
+        },
+        {
+            "type": "css",
+            "beginIdentifier": "build:css css/module-two.css",
+            "endIdentifier": "endbuild",
+            "resources": [
+                "./css/module-two.css"
+            ]
+        },
+        {
+            "type": "js",
+            "beginIdentifier": "build:js scripts/misc.js",
+            "endIdentifier": "end",
+            "resources": [
+                "./js/foo.js",
+                "./js/bar.js"
+            ]
+        },
+        {
+            "type": "js",
+            "beginIdentifier": "foo^-module-one",
+            "endIdentifier": "$bar",
+            "resources": [
+                "./js/module-one.js"
+            ]
+        },
+        {
+            "type": "js",
+            "beginIdentifier": "foo^-module-two",
+            "endIdentifier": "$bar",
+            "resources": [
+                "./js/module-two.js"
+            ]
+        }
+    ]
+}

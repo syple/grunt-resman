@@ -1,0 +1,47 @@
+{
+  "name": "grunt-resman",
+  "description": "A HTML resource manager.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/syple/grunt-resman",
+  "author": {
+    "name": "Syple Technologies",
+    "url": "http://syple.com.au"
+  },
+  "contributors": [
+    "Ryan O'Connor <ryn101@gmail.com> (http://github.com/ryn101)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/syple/grunt-resman"
+  },
+  "bugs": {
+    "url": "https://github.com/syple/grunt-resman/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/syple/grunt-resman/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "0.9.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-nodeunit": "~0.3.3",
+    "grunt": "~0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "keywords": [
+    "gruntplugin", "resman", "html", "resource", "js", "css"
+  ],
+  "dependencies": {
+    "regexp-quote": "0.0.0"
+  }
+}

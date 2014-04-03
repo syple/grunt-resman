@@ -212,3 +212,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 * v0.1.0 - Released to NPM
+* v0.1.1 - Fixed a critical bug which prevented the task from functioning correctly.
